@@ -1,0 +1,56 @@
+.todo{
+    width:50vw;
+    margin:50px auto 0 auto;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: #99A799;
+    border: none;
+    min-width: 300px;
+    display:flex;
+    flex-direction: column;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    padding: 10px;;
+}
+.input >input{
+    flex:1;
+     border-color: #D3E4CD;
+     height:20px;
+    }
+
+    .input >input:focus{
+        outline:none;
+    }
+
+.list{
+    display:flex;
+    align-self: center;
+    margin-top:10px;
+    align-items: center;
+}
+
+.list > p{
+    width:200px;
+    margin-top:5px;
+    padding:10px;
+    word-wrap: break-word;
+    border:none;
+    border-radius: 5px;;
+    background-color: rgb(207, 188, 207);
+    text-align: start;
+}
+
+.icon{
+    color:#F2DDC1;
+}
+.remove{
+    max-width: 100px;
+    padding:5px;
+    background-color: #F2DDC1;
+    border-radius: 5px;
+    border:none;
+    margin: 20px auto 10px 40%;
+}
